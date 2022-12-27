@@ -11,8 +11,8 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
     }
 
-    override fun onPause() {
-        super.onPause()
+    override fun onStop() {
+        super.onStop()
         val textView = findViewById<EditText>(R.id.editText)
         val intent = Intent(this, SecondActivity::class.java)
         intent.putExtra("text", textView.text.toString())
