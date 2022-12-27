@@ -4,20 +4,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/soft_blue"
-    tools:context=".MainActivity">
+    android:background="@color/blue"
+    tools:context=".SecondActivity">
 
-    <EditText
-        android:id="@+id/editText"
+    <TextView
+        android:id="@+id/setText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:autofillHints=""
-        android:ems="10"
-        android:hint="@string/type_anything"
-        android:inputType="textPersonName"
-        android:textAlignment="center"
-        android:textColorHint="@color/grey"
-        android:textSize="25sp"
+        android:text="@string/you_dont_type"
+        android:textColor="@color/grey"
+        android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

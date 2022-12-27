@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">TextHomework</string>
+    <string name="type_anything" translatable="false">Type anything</string>
+    <string name="you_dont_type" translatable="false">You don\'t type</string>
 </resources>
