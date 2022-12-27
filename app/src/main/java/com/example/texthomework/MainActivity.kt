@@ -11,7 +11,8 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
     }
 
-    override fun onBackPressed() {
+    override fun onPause() {
+        super.onPause()
         val textView = findViewById<EditText>(R.id.editText)
         val intent = Intent(this, SecondActivity::class.java)
         intent.putExtra("text", textView.text.toString())
